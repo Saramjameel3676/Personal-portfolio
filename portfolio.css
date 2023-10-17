@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+html, body {
+  height: 120%;
+  width: 100%;
+}
+
+main {
+  overflow: hidden;
+  position: relative;
+}
+
+.page {
+  height: 1200px;
+  /* background-color: #d82828; */
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1635px;
+  height: 120px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#portfolio h2 {
+  text-align: center;
+  font-size: 3rem;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  color: rgb(142, 142, 241); /* Replace with your actual primary color */
+}
+
+#portfolio h3 {
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  padding-top: 6rem;
+  
+}
+
+#portfolio .grid {
+  width: 84%;
+  margin-left: 8%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Arrange images in 2 columns */
+  gap: 2rem; /* Adjust as needed */
+  padding-top: 3rem; /* Adjust as needed */
+}
+
+#portfolio a {
+  display: block;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+
+#portfolio a:hover {
+  transform: scale(1.05);
+}
+
+#portfolio img {
+  width: 100%; /* Set a fixed width for consistent image size */
+  height: 100%; /* Set a fixed height for consistent image size */
+  object-fit: cover; /* Maintain aspect ratio and crop if needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
